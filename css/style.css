@@ -106,7 +106,7 @@
 }
 
 #tablo .displaybox-nav-arrow {
-  font-size: 400%;
+  font-size: 4em;
   cursor: pointer;
 }
 
@@ -141,5 +141,9 @@
     padding: 10px;
     font-size: 0.9em;
     max-height: 310px;
+  }
+
+  #tablo .displaybox-nav-arrow {
+    font-size: 3em;
   }
 }
