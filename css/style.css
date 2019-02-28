@@ -1,0 +1,8 @@
+#tablo {
+  display: flex;
+  align-content: space-around;
+}
+
+#tablo .entry {
+  width: 33%;
+}
