@@ -20,12 +20,18 @@ const Calendar = () => (
   </div>
 );
 */
-const Entry = ({ candidate }) => (
-  <div class="entry">
-    <img src={`http://data.irozhlas.cz/us-prezident-kandidati/fotky/${candidate.photo}`} />
-    {candidate.name}
-  </div>
-);
+const Entry = ({ candidate }) => {
+  const imgName = `${candidate.name.toLowerCase().replace(" ", "_")}.jpg`;
+
+  return (
+    <div className="entry">
+      <img className="entry-img" alt={candidate.name} src={`http://data.irozhlas.cz/us-prezident-kandidati/fotky/${imgName}`} />
+      <div className="entry-name">{candidate.name}</div>
+      <div className="entry-age">{`${getAge(candidate.dob)} let`}</div>
+      <div className="entry-desc">{candidate.desc}</div>
+    </div>
+  );
+};
 
 const Tablo = () => (
   <div id="tablo">

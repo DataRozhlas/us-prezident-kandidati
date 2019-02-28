@@ -1,8 +1,17 @@
 #tablo {
   display: flex;
+  flex-wrap: wrap;
   align-content: space-around;
 }
 
 #tablo .entry {
-  width: 33%;
+  width: 30%;
+  border-style: solid;
+  border-width: 1px;
+  padding: 10px;
+  margin: 10px; 
+}
+
+#tablo .entry-img {
+  width: 100%;
 }
