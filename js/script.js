@@ -1,3 +1,4 @@
+/* eslint-disable react/no-danger */
 import "./targetblank"; // pro otvírání odkazů v novém okně
 import { h, render, Component } from "preact";
 /** @jsx h */
@@ -8,8 +9,8 @@ const DisplayBox = ({ candidate, handleClick }) => {
   const imgName = `${candidate.name.toLowerCase().replace(" ", "_")}.jpg`;
 
   return (
-    <div className="displaybox">
-      <div role="button" tabIndex="0" className="displaybox-close" onClick={() => handleClick("close")}>✕</div>
+    <div className="displaybox" onFocusOut={e => handleClick("close", e)}>
+      <div role="button" tabIndex="0" className="displaybox-close" onClick={e => handleClick("close", e)}>✕</div>
       <img className="displaybox-img" alt={candidate.name} src={`http://data.irozhlas.cz/us-prezident-kandidati/fotky/${imgName}`} />
       <div className="displaybox-header">
         <div className="displaybox-name">{candidate.name}</div>
@@ -45,6 +46,36 @@ class Tablo extends Component {
     };
     this.handleEntryClick = this.handleEntryClick.bind(this);
     this.handleBoxClick = this.handleBoxClick.bind(this);
+    this.handleKeys = this.handleKeys.bind(this);
+    this.handleMouseUp = this.handleMouseUp.bind(this);
+  }
+
+  componentDidMount() {
+    document.documentElement.addEventListener("keyup", this.handleKeys);
+    document.documentElement.addEventListener("mouseup", this.handleMouseUp);
+  }
+
+  handleKeys(event) {
+    const { visibleBox } = this.state;
+    if (event.key === "Escape") {
+      if (visibleBox) {
+        this.setState({
+          visibleBox: false,
+        });
+      }
+    }
+  }
+
+  handleMouseUp(event) {
+    const { visibleBox } = this.state;
+    if (visibleBox) {
+      const box = document.getElementsByClassName("displaybox")[0];
+      if (event.target !== box && !box.contains(event.target)) {
+        this.setState({
+          visibleBox: false,
+        });
+      }
+    }
   }
 
   handleEntryClick(candidate) {
@@ -52,13 +83,15 @@ class Tablo extends Component {
       visibleBox: true,
       selectedCand: candidate,
     });
+    document.documentElement.style.overflow = "hidden";
   }
 
-  handleBoxClick(action) {
+  handleBoxClick(action, event) {
     if (action === "close") {
       this.setState({
         visibleBox: false,
       });
+      document.documentElement.style.overflow = "auto";
     }
   }
 

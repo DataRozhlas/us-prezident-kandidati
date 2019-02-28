@@ -4,7 +4,8 @@ const data = [
     dob: "1969-04-27",
     desc: `
     <p>Studoval na Stanfordově univerzitě a následně díky Rhodesovu stipendiu odešel do Anglie za studiem na Oxfordské univerzitě. Později docházel na právní fakultu Yaleovy univerzity. V roce 2002 neúspěšně kandidoval na post starosty newjersejského města Newark. O čtyři roky byl se svou druhou kandidaturou úspěšný.</p>
-    <p>Test test</p>
+    <p>Studoval na Stanfordově univerzitě a následně díky Rhodesovu stipendiu odešel do Anglie za studiem na Oxfordské univerzitě. Později docházel na právní fakultu Yaleovy univerzity. V roce 2002 neúspěšně kandidoval na post starosty newjersejského města Newark. O čtyři roky byl se svou druhou kandidaturou úspěšný.</p>
+    <p>Studoval na Stanfordově univerzitě a následně díky Rhodesovu stipendiu odešel do Anglie za studiem na Oxfordské univerzitě. Později docházel na právní fakultu Yaleovy univerzity. V roce 2002 neúspěšně kandidoval na post starosty newjersejského města Newark. O čtyři roky byl se svou druhou kandidaturou úspěšný.</p>
     `,
   },
   {
