@@ -109,11 +109,11 @@ class Tablo extends Component {
         visibleBox: false,
       });
       document.documentElement.style.overflow = "auto";
-    } else if (action === "left") {
+    } else if (action === "right") {
       this.setState({
         selectedCand: (selectedCand + 1) % data.length,
       });
-    } else if (action === "right") {
+    } else if (action === "left") {
       this.setState({
         selectedCand: selectedCand === 0 ? data.length - 1 : selectedCand - 1,
       });

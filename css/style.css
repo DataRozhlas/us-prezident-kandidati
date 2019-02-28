@@ -124,6 +124,7 @@
 
   #tablo .displaybox {
     max-width: 80vw;
+    max-height: 80vh;
   }
 
   #tablo .displaybox-img {
