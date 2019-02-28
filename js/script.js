@@ -12,7 +12,7 @@ const DisplayBox = ({ candidate, handleClick }) => {
   return (
     <div>
       <div className="displaybox-overlay" />
-      <div className="displaybox" onFocusOut={e => handleClick("close", e)}>
+      <div className="displaybox">
         <div role="button" tabIndex="0" className="displaybox-close" onClick={() => handleClick("close")}>✕</div>
         <img className="displaybox-img" alt={candidate.name} src={`http://data.irozhlas.cz/us-prezident-kandidati/fotky/${imgName}`} />
         <div className="displaybox-header">
