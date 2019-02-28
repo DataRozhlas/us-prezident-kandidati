@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/click-events-have-key-events */
 /* eslint-disable react/no-danger */
 import "./targetblank"; // pro otvírání odkazů v novém okně
 import { h, render, Component } from "preact";
@@ -10,15 +11,19 @@ const DisplayBox = ({ candidate, handleClick }) => {
 
   return (
     <div>
-      <div className="displaybox-overlay"></div>
+      <div className="displaybox-overlay" />
       <div className="displaybox" onFocusOut={e => handleClick("close", e)}>
-        <div role="button" tabIndex="0" className="displaybox-close" onClick={e => handleClick("close", e)}>✕</div>
+        <div role="button" tabIndex="0" className="displaybox-close" onClick={() => handleClick("close")}>✕</div>
         <img className="displaybox-img" alt={candidate.name} src={`http://data.irozhlas.cz/us-prezident-kandidati/fotky/${imgName}`} />
         <div className="displaybox-header">
           <div className="displaybox-name">{candidate.name}</div>
           <div className="displaybox-age">{`${getAge(candidate.dob)} let`}</div>
         </div>
         <div className="displaybox-desc" dangerouslySetInnerHTML={{ __html: candidate.desc }} />
+        <div className="displaybox-nav">
+          <div role="button" tabIndex="0" className="displaybox-nav-arrow" onClick={() => handleClick("left")}>🡄</div>
+          <div role="button" tabIndex="0" className="displaybox-nav-arrow" onClick={() => handleClick("right")}>🡆</div>
+        </div>
       </div>
     </div>
   );
@@ -97,12 +102,21 @@ class Tablo extends Component {
     document.documentElement.style.overflow = "hidden";
   }
 
-  handleBoxClick(action, event) {
+  handleBoxClick(action) {
+    const { selectedCand } = this.state;
     if (action === "close") {
       this.setState({
         visibleBox: false,
       });
       document.documentElement.style.overflow = "auto";
+    } else if (action === "left") {
+      this.setState({
+        selectedCand: (selectedCand + 1) % data.length,
+      });
+    } else if (action === "right") {
+      this.setState({
+        selectedCand: selectedCand === 0 ? data.length - 1 : selectedCand - 1,
+      });
     }
   }
 

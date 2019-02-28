@@ -93,8 +93,21 @@
   position: absolute;
   top: 200px;
   padding: 5px;
-  max-height: 290px;
+  max-height: 220px;
   overflow-y: scroll; 
+}
+
+#tablo .displaybox-nav {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#tablo .displaybox-nav-arrow {
+  font-size: 400%;
+  cursor: pointer;
 }
 
 @media only screen and (max-width: 600px) {
@@ -124,9 +137,9 @@
   }
 
   #tablo .displaybox-desc {
-    top: 100px;
-    padding: 20px;
+    top: 110px;
+    padding: 10px;
     font-size: 0.9em;
-    max-height: 380px;
+    max-height: 310px;
   }
 }
