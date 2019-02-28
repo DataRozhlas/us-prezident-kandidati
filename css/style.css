@@ -110,6 +110,12 @@
   cursor: pointer;
 }
 
+#tablo .displaybox-nav-arrow-left {
+  font-size: 4em;
+  cursor: pointer;
+  transform: scale(-1, 1);
+}
+
 @media only screen and (max-width: 600px) {
   #tablo .entry {
     width: 100%;
