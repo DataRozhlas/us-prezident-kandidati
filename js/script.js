@@ -9,24 +9,27 @@ const DisplayBox = ({ candidate, handleClick }) => {
   const imgName = `${candidate.name.toLowerCase().replace(" ", "_")}.jpg`;
 
   return (
-    <div className="displaybox" onFocusOut={e => handleClick("close", e)}>
-      <div role="button" tabIndex="0" className="displaybox-close" onClick={e => handleClick("close", e)}>✕</div>
-      <img className="displaybox-img" alt={candidate.name} src={`http://data.irozhlas.cz/us-prezident-kandidati/fotky/${imgName}`} />
-      <div className="displaybox-header">
-        <div className="displaybox-name">{candidate.name}</div>
-        <div className="displaybox-age">{`${getAge(candidate.dob)} let`}</div>
+    <div>
+      <div className="displaybox-overlay"></div>
+      <div className="displaybox" onFocusOut={e => handleClick("close", e)}>
+        <div role="button" tabIndex="0" className="displaybox-close" onClick={e => handleClick("close", e)}>✕</div>
+        <img className="displaybox-img" alt={candidate.name} src={`http://data.irozhlas.cz/us-prezident-kandidati/fotky/${imgName}`} />
+        <div className="displaybox-header">
+          <div className="displaybox-name">{candidate.name}</div>
+          <div className="displaybox-age">{`${getAge(candidate.dob)} let`}</div>
+        </div>
+        <div className="displaybox-desc" dangerouslySetInnerHTML={{ __html: candidate.desc }} />
       </div>
-      <div className="displaybox-desc" dangerouslySetInnerHTML={{ __html: candidate.desc }} />
     </div>
   );
 };
 
 
-const Entry = ({ candidate, handleClick }) => {
+const Entry = ({ candidate, id, handleClick }) => {
   const imgName = `${candidate.name.toLowerCase().replace(" ", "_")}.jpg`;
 
   return (
-    <div className="entry" role="button" tabIndex="0" onClick={() => handleClick(candidate)}>
+    <div className="entry" role="button" tabIndex="0" onClick={() => handleClick(id)}>
       <img className="entry-img" alt={candidate.name} src={`http://data.irozhlas.cz/us-prezident-kandidati/fotky/${imgName}`} />
       <div className="entry-info">
         <div className="entry-name">{candidate.name}</div>
@@ -42,7 +45,7 @@ class Tablo extends Component {
     super(props);
     this.state = {
       visibleBox: false,
-      selectedCand: "Cory Booker",
+      selectedCand: null,
     };
     this.handleEntryClick = this.handleEntryClick.bind(this);
     this.handleBoxClick = this.handleBoxClick.bind(this);
@@ -56,11 +59,19 @@ class Tablo extends Component {
   }
 
   handleKeys(event) {
-    const { visibleBox } = this.state;
-    if (event.key === "Escape") {
-      if (visibleBox) {
+    const { visibleBox, selectedCand } = this.state;
+    if (visibleBox) {
+      if (event.key === "Escape") {
         this.setState({
           visibleBox: false,
+        });
+      } else if (event.key === "ArrowRight") {
+        this.setState({
+          selectedCand: (selectedCand + 1) % data.length,
+        });
+      } else if (event.key === "ArrowLeft") {
+        this.setState({
+          selectedCand: selectedCand === 0 ? data.length - 1 : selectedCand - 1,
         });
       }
     }
@@ -78,10 +89,10 @@ class Tablo extends Component {
     }
   }
 
-  handleEntryClick(candidate) {
+  handleEntryClick(id) {
     this.setState({
       visibleBox: true,
-      selectedCand: candidate,
+      selectedCand: id,
     });
     document.documentElement.style.overflow = "hidden";
   }
@@ -98,14 +109,14 @@ class Tablo extends Component {
   render() {
     const { visibleBox, selectedCand } = this.state;
     const displayBox = visibleBox
-      ? <DisplayBox candidate={selectedCand} handleClick={this.handleBoxClick} />
+      ? <DisplayBox candidate={data[selectedCand]} handleClick={this.handleBoxClick} />
       : null;
 
     return (
       <div id="tablo">
         {displayBox}
-        {data.map(candidate => (
-          <Entry candidate={candidate} handleClick={this.handleEntryClick} />
+        {data.map((candidate, candId) => (
+          <Entry candidate={candidate} id={candId} handleClick={this.handleEntryClick} />
         ))}
       </div>
     );
