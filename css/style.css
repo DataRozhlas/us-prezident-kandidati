@@ -1,12 +1,11 @@
 #tablo {
   display: flex;
   flex-wrap: wrap;
-  align-content: space-around;
+  justify-content: space-around;
 }
 
 #tablo .entry {
   width: 30%;
-  margin: 0 0 10px 10px; 
   box-shadow: 0 0 10px 0 rgba(186,186,186,0.5);
   transition: transform 0.3s;
   padding: 5px;
@@ -56,7 +55,7 @@
   transform: translate(-50%, -50%);
   width: 500px;
   height: 500px;
-  border: 1px solid;
+  border: 1px solid lightgray;
   background: white;
   z-index: 2;
 }
@@ -102,18 +101,15 @@
   bottom: 0;
   width: 100%;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 
 #tablo .displaybox-nav-arrow {
-  font-size: 4em;
+  font-size: 6em;
   cursor: pointer;
-}
-
-#tablo .displaybox-nav-arrow-left {
-  font-size: 4em;
-  cursor: pointer;
-  transform: scale(-1, 1);
+  font-weight: bold;
+  color: gray;
+  margin-bottom: -22px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -151,6 +147,7 @@
   }
 
   #tablo .displaybox-nav-arrow {
-    font-size: 3em;
+    font-size: 4em;
+    margin-bottom: -10px;
   }
 }

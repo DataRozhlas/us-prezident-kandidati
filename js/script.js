@@ -21,8 +21,8 @@ const DisplayBox = ({ candidate, handleClick }) => {
         </div>
         <div className="displaybox-desc" dangerouslySetInnerHTML={{ __html: candidate.desc }} />
         <div className="displaybox-nav">
-          <div role="button" tabIndex="0" className="displaybox-nav-arrow displaybox-nav-arrow-left" onClick={() => handleClick("left")}>➤</div>
-          <div role="button" tabIndex="0" className="displaybox-nav-arrow" onClick={() => handleClick("right")}>➤</div>
+          <div role="button" tabIndex="0" className="displaybox-nav-arrow" onClick={() => handleClick("left")}>‹</div>
+          <div role="button" tabIndex="0" className="displaybox-nav-arrow" onClick={() => handleClick("right")}>›</div>
         </div>
       </div>
     </div>
