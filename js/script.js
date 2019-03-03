@@ -76,6 +76,7 @@ class Tablo extends Component {
         this.setState({
           visibleBox: false,
         });
+        document.documentElement.style.overflow = "auto";
       } else if (event.key === "ArrowRight") {
         this.setState({
           selectedCand: (selectedCand + 1) % data.length,

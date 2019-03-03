@@ -9,6 +9,7 @@
   box-shadow: 0 0 10px 0 rgba(186,186,186,0.5);
   transition: transform 0.3s;
   padding: 5px;
+  margin-top: 10px;
 }
 
 #tablo .entry:hover {
