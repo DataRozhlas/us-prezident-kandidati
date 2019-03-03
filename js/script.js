@@ -96,6 +96,7 @@ class Tablo extends Component {
         this.setState({
           visibleBox: false,
         });
+        document.documentElement.style.overflow = "auto";
       }
     }
   }
