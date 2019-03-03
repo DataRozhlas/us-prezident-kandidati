@@ -53,55 +53,67 @@
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  width: 500px;
-  height: 500px;
+  width: 700px;
+  height: 600px;
+  max-height: 80vh;
   border: 1px solid lightgray;
   background: white;
   z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-#tablo .displaybox-close {
-  position: absolute;
-  top: -5px;
-  right: 5px;
-  font-size: 2em;
-  cursor: pointer;
+#tablo .displaybox-top {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+#tablo .displaybox-img-container {
+  width: 200px;
 }
 
 #tablo .displaybox-img {
-  position: absolute;
-  top: 0;
-  left: 0;
   width: 200px;
 }
 
 #tablo .displaybox-header {
-  margin-left: 220px;
+  padding-left: 10px;
+}
+
+#tablo .displaybox-close {
+  font-size: 2em;
+  cursor: pointer;
+  padding-right: 10px;
+  align-self: baseline;
 }
 
 #tablo .displaybox-name {
-  font-size: 2em;
+  font-size: 3em;
+  font-weight: bold; 
   padding-right: 30px;
 }
 
-#tablo .displaybox-age {
-  font-size: 1.5em;
+#tablo .displaybox-age, #tablo .displaybox-blurb {
+  font-size: 2em;
 }
 
 #tablo .displaybox-desc {
-  position: absolute;
-  top: 200px;
-  padding: 5px;
-  max-height: 220px;
+  padding: 20px;
   overflow-y: scroll; 
+  flex-grow: 1;
 }
 
 #tablo .displaybox-nav {
-  position: absolute;
-  bottom: 0;
   width: 100%;
   display: flex;
   justify-content: space-around;
+  margin-top: -30px;
+  margin-bottom: -10px;
+  flex-shrink: 0;
 }
 
 #tablo .displaybox-nav-arrow {
@@ -109,10 +121,9 @@
   cursor: pointer;
   font-weight: bold;
   color: gray;
-  margin-bottom: -22px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   #tablo .entry {
     width: 100%;
     margin: 0 0 10px 0; 
@@ -123,27 +134,33 @@
     max-height: 90vh;
   }
 
-  #tablo .displaybox-img {
+  #tablo .displaybox-img-container, #tablo .displaybox-img {
     width: 100px;
   }
   
-  #tablo .displaybox-header {
-    margin-left: 110px;
+  #tablo .displaybox-close {
+    position: absolute;
+    right: -5px;
+    top: -5px;
   }
 
   #tablo .displaybox-name {
-    font-size: 1.5em;
+    font-weight: bold;
+    font-size: 1.2em;
   }
 
-  #tablo .displaybox-age {
+  #tablo .displaybox-age, #tablo .displaybox-blurb {
     font-size: 1em;
+    color: gray;
   }
 
   #tablo .displaybox-desc {
-    top: 110px;
     padding: 10px;
     font-size: 0.9em;
-    max-height: 310px;
+  }
+
+  #tablo .displaybox-nav {
+    margin-top: -30px; 
   }
 
   #tablo .displaybox-nav-arrow {

@@ -13,11 +13,16 @@ const DisplayBox = ({ candidate, handleClick }) => {
     <div>
       <div className="displaybox-overlay" />
       <div className="displaybox">
-        <div role="button" tabIndex="0" className="displaybox-close" onClick={() => handleClick("close")}>✕</div>
-        <img className="displaybox-img" alt={candidate.name} src={`http://data.irozhlas.cz/us-prezident-kandidati/fotky/${imgName}`} />
-        <div className="displaybox-header">
-          <div className="displaybox-name">{candidate.name}</div>
-          <div className="displaybox-age">{`${getAge(candidate.dob)} let`}</div>
+        <div className="displaybox-top">
+          <div className="displaybox-img-container">
+            <img className="displaybox-img" alt={candidate.name} src={`http://data.irozhlas.cz/us-prezident-kandidati/fotky/${imgName}`} />
+          </div>
+          <div className="displaybox-header">
+            <div className="displaybox-name">{candidate.name}</div>
+            <div className="displaybox-blurb">{candidate.blurb}</div>
+            <div className="displaybox-age">{`${getAge(candidate.dob)} let`}</div>
+          </div>
+          <div role="button" tabIndex="0" className="displaybox-close" onClick={() => handleClick("close")}>✕</div>
         </div>
         <div className="displaybox-desc" dangerouslySetInnerHTML={{ __html: candidate.desc }} />
         <div className="displaybox-nav">

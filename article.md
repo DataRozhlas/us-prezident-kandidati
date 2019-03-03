@@ -1,4 +1,4 @@
-title: "Kandidáti na prezidenta. Kdo jsou? A proč?"
+title: "Dvanáct statečných chce vyzvat Trumpa na souboj. Kdo jsou demokratičtí kandidáti na prezdienta?"
 perex: "Tady bude článek."
 published: "21. dubna 2019"
 coverimg: https://interaktivni.rozhlas.cz/brexit/media/cover.jpg
