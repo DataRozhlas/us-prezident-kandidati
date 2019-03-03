@@ -43,6 +43,7 @@ const Entry = ({ candidate, id, handleClick }) => {
       <img className="entry-img" alt={candidate.name} src={`http://data.irozhlas.cz/us-prezident-kandidati/fotky/${imgName}`} />
       <div className="entry-info">
         <div className="entry-name">{candidate.name}</div>
+        <div className="entry-blurb">{candidate.blurb}</div>
         <div className="entry-age">{`${getAge(candidate.dob)} let`}</div>
         <div className="entry-desc">{candidate.desc.split("<p>")[1]}</div>
       </div>

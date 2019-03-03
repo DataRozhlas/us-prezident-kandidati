@@ -25,8 +25,9 @@
   font-weight: bold;
 }
 
-#tablo .entry-age {
+#tablo .entry-blurb, #tablo .entry-age {
   font-size: 0.9em;
+  color: grey;
 }
 
 #tablo .entry-desc {
@@ -155,16 +156,14 @@
   }
 
   #tablo .displaybox-desc {
-    padding: 10px;
     font-size: 0.9em;
   }
 
   #tablo .displaybox-nav {
-    margin-top: -30px; 
+    margin-top: -20px; 
   }
 
   #tablo .displaybox-nav-arrow {
     font-size: 4em;
-    margin-bottom: -10px;
   }
 }

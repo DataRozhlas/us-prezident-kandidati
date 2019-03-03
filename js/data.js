@@ -37,7 +37,7 @@ const data = [
   },
   {
     name: "Tulsi Gabbard",
-    blurb: "Rozporuplná válečná veteránka",
+    blurb: "Rozporuplná veteránka",
     dob: "1981-04-12",
     desc: `
     <p>Tulsi Gabbard je kongresmanka z Havaje, první hinduistka v americkém Kongresu. Sloužila jako medička ve válce v Iráku a později v Kuvajtu. Patří mezi levicové demokratické kandidáty, podporuje boj proti klimatické změně nebo bankovní regulace a odmítá americké mezinárodní intervence.</p>
@@ -64,42 +64,47 @@ const data = [
   },
   {
     name: "Amy Klobuchar",
-    blurb: "bleh",
+    blurb: "Senátorka z lidu",
     dob: "1960-05-25",
     desc: `
-    <p>Občanským povoláním je právnička: Nejprve získala v roce 1992 bakalářský titul Yaleovy univerzity, pak v roce 1985 titul doktora práv z Chicagské univerzity. Následně byla partnerkou ve dvou právnických společnostech v Minneapolisu, pak byla v roce 1998 zvolena do funkce státního zástupsce pro okres Hennepin, kteroužto funkci obhájila i v roce 2002.</p>
+    <p>Amy Klobuchar je právnička a od roku 2007 senátorka za stát Minnesota. Stejně jako její soupeřka Kamala Harris má za sebou kariéru prokurátorky. Její politické pozice odpovídají mainstreamu v americké Demokratické straně a předchází jí pověst sympatické, ale v případě potřeby ostré političky, kterou prokázala mimo jiné při loňském schvalování soudce Nejvyššího soudu Bretta Kavanaugha.</p>
+    <p>Její priority pokrývají široké spektrum oblastí, od levnějších léků přes rychlejší internet a bezpečnější volby po přísnější antimonopolní zákony. I přes jasně liberální postoje se jí daří prezentovat se jako umírněná politička ochotná ke kompromisům, což jí může pomoci u středovějších demokratických voličů.</p>
     `,
   },
   {
     name: "Bernie Sanders",
-    blurb: "meh",
+    blurb: "Známá firma",
     dob: "1941-09-08",
     desc: `
-    <p>Považuje se za demokratického socialistu a sociálního liberála inspirujícího se skandinávským modelem sociální demokracie, média jej ale škatulkují jako socialistu (v kontextu USA téměř hanlivý termín). Podle Noama Chomského je jeho program velmi podobný plánu New Deal.</p>
+    <p>Dobře známý soupeř Hillary Clinton z posledních demokratických primárek to ani tentokrát nebude mít jednoduché. Kampaň Bernieho Sanderse v roce 2016 posunula celou Demokratickou stranu doleva - jenže tím se jeho dříve odvážné levicivé postoje znormalizovaly a zastává je i nemalá část jeho soupeřů.</p>
+    <p>Sanders může stále těžit ze své popularity a jádra voličů i dobrovolníků, které získal v poslední kampani. Proti němu ovšem hraje jednak jeho věk - pokud by se stal prezidentem, bude to v jeho 79 letech - jednak oproti minulým volbám zaplněné pole neokoukaných spolukandidátů, kteří více odpovídají představě demokratů o progresivní straně diverzity.</p>
     `,
   },
   {
     name: "Elizabeth Warren",
-    blurb: "glob",
+    blurb: "Těžká váha levice",
     dob: "1949-06-22",
     desc: `
-    <p>Bývá řazena k levicovému křídlu Demokratické strany. Jednatřicátého prosince 2018 ohlásila kandidaturu na prezidentku Spojených států. Usiluje o přísnější regulaci bankovního sektoru a o finančně dostupnější školství a zdravotnictví, podala také návrh zákona o střetu zájmů při výkonu prezidentské funkce.</p>
+    <p>Senátorka za stát Massachusetts a expertka na obchodní právo Elizabeth Warren je jednou z nejvýraznějších tváří levicového křídla Demokratické strany. Bývalá akademička v Senátu prosazuje ochranu spotřebitelů, podporu nižší a střední třídy a přísnou kontrolu finančního sektoru.</p>
+    <p>Elizabeth Warren patří mezi v demokratických primárkách mezi favority. Spolu s Berniem Sandersem patří mezi dlouholeté bojovníky proti velkému kapitálu. Proti ní ale může hrát fakt, že působí až příliš jako profesionální politička a chybí jí zápal, jaký v minulé kampani předvedl právě Sanders.</p>
     `,
   },
   {
     name: "Marianne Williamson",
-    blurb: "jeb",
+    blurb: "Duchovní outsiderka",
     dob: "1952-07-08",
     desc: `
-    <p>In 2014, as an Independent, Williamson ran unsuccessfully for the seat of California's 33rd congressional district in the United States House of Representatives elections in California. On January 29, 2019, she announced she was running for the Democratic nomination for the 2020 United States presidential election.</p>
+    <p>Marianne Williamson je americká charitativní aktiviska a „duchovní učitelka“. Do politiky přichází jako outsiderka - za sebou má pouze neúspěšnou nezávislou kandidaturu do Kongresu v roce 2014. Známá je ale díky svým bestsellerům a také z televizních obrazovek, mimo jiné díky show americké televizní legendy Oprah Winfrey.</p>
+    <p>Názorově se podle vlastních slov nejvíce shoduje s Berniem Sandersem a Elizabeth Warren, na rozdíl od nich ale do politiky přichází zvenku podobně jako Donald Trump. Její kandidatura ukáže, jak jsou demokraté ochotni v tomto směru jít v republikánských stopách - pokud tedy nebude kandidovat zmíněná Oprah Winfrey, o čemž se v posledních letech spekulovalo několikrát.</p>
     `,
   },
   {
     name: "Andrew Yang",
-    blurb: "žblept",
+    blurb: "Nápaditý byznysmen",
     dob: "1975-01-13",
     desc: `
-    <p>Yang je autorem knih Inteligentní lidé by měli budovat a Válka s normálními lidmi zabývající se automatizací práce. Yang jako svůj hlavní cíl prosazuje zavedení základního nepodmíněného příjmu pro každého dospělého Američana staršího 18 let. Agendu chápe jako součást filosofie kapitalismu soustředěného na člověka (Human-centered capitalism).</p>
+    <p>Podnikatel Andrew Yang kandiduje na prezidenta po dvacetileté zkušenosti se start-upy. Je autorem knih, které se zabývají automatizací práce, a prezidentská kandidatura je jeho první zkušenost s politikou. Je vůbec prvním kandidátem s asijskými kořeny.</p>
+    <p>Jeho sloganem je „Humanity First“ (lidstvo především) a do kampaně jde s jednou hlavní myšlenkou: zavedením nepodmíněného základního příjmu 1000 dolarů měsíčně pro každého Američana. Kromě ní ale voličům mnoho nenabízí a je v roli outsidera. Jeho hlavním úspěchem může být, že jeho nápad se základním příjmem převezmou další kandidáti.</p>
     `,
   },
 ];
