@@ -63,6 +63,24 @@ const data = [
     `,
   },
   {
+    name: "John Hickenlooper",
+    blurb: "Středový guvernér",
+    dob: "1952-02-07",
+    desc: `
+    <p>Nedávný guvernér státu Colorado John Hickenlooper patří mezi demokraty k umírněnému středu. Vystudovaný geolog se před působením v politice dal na podnikatelskou dráhu a mimo jiné spoluzaložil minipivovar. Post guvernéra zastával osm let, předtím byl osm let starostou města Denver.</p>
+    <p>Jako bývalý byznysmen je přátelský vůči trhu a počítá se k ekonomickému středu. Zároveň ale ve funkci guvernéra například prosadil přísnější pravidla pro držení zbraní, rozšíření zdravotního pojištění nebo environmentální regulace. Je také proti trestu smrti. Říká o sobě, že je „protilátkou vůči Trumpovi“.</p>
+    `,
+  },
+  {
+    name: "Jay Inslee",
+    blurb: "Klimatický bojovník",
+    dob: "1951-02-09",
+    desc: `
+    <p>Jay Inslee je guvernér státu Washington, který v celostátní politice působí už od začátku devadesátých let. Silně se vymezuje proti prezidentu Trumpovi, mimo jiné úspěšně napadl u soudu jeho zákaz vstupu do USA pro občany některých muslimských zemí.</p>
+    <p>V pozici guvernéra zdůrazňoval nutnost boje s klimatickou krizí, který je i hlavním tématem jeho prezidentské kampaně. Mezi kandidáty je i přes své politické zkušenosti spíše outsiderem, přesto je optimistou - podotýká, že i exprezidenti Jimmy Carter a Bill Clinton byli před primárkami málo známí guvernéři malých států.</p> 
+    `,
+  },
+  {
     name: "Amy Klobucharová",
     blurb: "Senátorka z lidu",
     dob: "1960-05-25",
@@ -96,15 +114,6 @@ const data = [
     desc: `
     <p>Marianne Williamsonová je americká charitativní aktiviska a „duchovní učitelka“. Do politiky přichází jako outsiderka - za sebou má pouze neúspěšnou nezávislou kandidaturu do Kongresu v roce 2014. Známá je ale díky svým bestsellerům a také z televizních obrazovek, mimo jiné díky show americké televizní legendy Oprah Winfreyové.</p>
     <p>Názorově se podle vlastních slov nejvíce shoduje s Berniem Sandersem a Elizabeth Warrenovou, na rozdíl od nich ale do politiky přichází zvenku podobně jako Donald Trump. Její kandidatura ukáže, jak jsou demokraté ochotni v tomto směru jít v republikánských stopách - pokud tedy nebude kandidovat zmíněná Oprah Winfreyová, o čemž se v posledních letech spekulovalo několikrát.</p>
-    `,
-  },
-  {
-    name: "Andrew Yang",
-    blurb: "Nápaditý byznysmen",
-    dob: "1975-01-13",
-    desc: `
-    <p>Podnikatel Andrew Yang kandiduje na prezidenta po dvacetileté zkušenosti se start-upy. Je autorem knih, které se zabývají automatizací práce, a prezidentská kandidatura je jeho první zkušenost s politikou. Je vůbec prvním kandidátem s asijskými kořeny.</p>
-    <p>Jeho sloganem je „Humanity First“ (lidstvo především) a do kampaně jde s jednou hlavní myšlenkou: zavedením nepodmíněného základního příjmu 1000 dolarů měsíčně pro každého Američana. Kromě ní ale voličům mnoho nenabízí a je v roli outsidera. Jeho hlavním úspěchem může být, že jeho nápad se základním příjmem převezmou další kandidáti.</p>
     `,
   },
   {
