@@ -7,7 +7,7 @@ import data from "./data";
 import { getAge } from "./datehelper";
 
 const DisplayBox = ({ candidate, handleClick }) => {
-  const imgName = `${candidate.name.toLowerCase().replace(" ", "_")}.jpg`;
+  const imgName = `${candidate.name.toLowerCase().replace("ová", "").replace(" ", "_")}.jpg`;
 
   return (
     <div>
@@ -36,7 +36,7 @@ const DisplayBox = ({ candidate, handleClick }) => {
 
 
 const Entry = ({ candidate, id, handleClick }) => {
-  const imgName = `${candidate.name.toLowerCase().replace(" ", "_")}.jpg`;
+  const imgName = `${candidate.name.toLowerCase().replace("ová", "").replace(" ", "_")}.jpg`;
 
   return (
     <div className="entry" role="button" tabIndex="0" onClick={() => handleClick(id)}>

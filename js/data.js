@@ -22,7 +22,7 @@ const data = [
     blurb: "Obamovec",
     dob: "1974-07-16",
     desc: `
-    <p>Nejmladší ministr Baracka Obamy Julian Castro začínal jako radní a později starosta v texaském San Antoniu. V Obamově kabinetu zastával tři roky funkci ministra bytové výstavby. Ve volbách v roce 2016 podpořil Hillary Clinton, která o něm následně uvažovala jako o kandidátovi na viceprezidenta.</p>
+    <p>Nejmladší ministr Baracka Obamy Julian Castro začínal jako radní a později starosta v texaském San Antoniu. V Obamově kabinetu zastával tři roky funkci ministra bytové výstavby. Ve volbách v roce 2016 podpořil Hillary Clintonovou, která o něm následně uvažovala jako o kandidátovi na viceprezidenta.</p>
     <p>Mezi demokraty je spíše centristou, který podporuje volný trh a v ekonomických otázkách ke svým levicovým spolukandidátům příliš netíhne, byť patří mezi sociální liberály a podporuje například LGBT práva a boj proti klimatické změně. Není ovšem příliš schopným řečníkem a podle analytika BBC Anthonyho Zurchera by mu více slušela viceprezidentská role.</p>
     `,
   },
@@ -36,66 +36,75 @@ const data = [
     `,
   },
   {
-    name: "Tulsi Gabbard",
+    name: "Tulsi Gabbardová",
     blurb: "Rozporuplná veteránka",
     dob: "1981-04-12",
     desc: `
-    <p>Tulsi Gabbard je kongresmanka z Havaje, první hinduistka v americkém Kongresu. Sloužila jako medička ve válce v Iráku a později v Kuvajtu. Patří mezi levicové demokratické kandidáty, podporuje boj proti klimatické změně nebo bankovní regulace a odmítá americké mezinárodní intervence.</p>
+    <p>Tulsi Gabbardová je kongresmanka z Havaje, první hinduistka v americkém Kongresu. Sloužila jako medička ve válce v Iráku a později v Kuvajtu. Patří mezi levicové demokratické kandidáty, podporuje boj proti klimatické změně nebo bankovní regulace a odmítá americké mezinárodní intervence.</p>
     <p>Za některé své postoje je zároveň terčem kritiky. Kromě jiného nesouhlasí s americkou účastí ve válce v Sýrii, kde se v roce 2017 setkala s prezidentem Bašárem Asadem, a zastává tvrdší pozici v otázce migrace. Na začátku své kariéry navíc vystupovala proti potratům a stejnopohlavním sňatkům a propagovala léčení homosexuality. Dnes tyto postoje vysvětluje konzervativním prostředím, ve kterém vyrůstala, a ve všech hlasováních podporuje rovná lidská práva.</p>
     `,
   },
   {
-    name: "Kirsten Gillibrand",
+    name: "Kirsten Gillibrandová",
     blurb: "Senátorka z hnutí #MeToo",
     dob: "1966-12-09",
     desc: `
-    <p>Právnička a senátorka Kirsten Gillebrand je kandidátkou, která se profiluje převážně feministickými tématy. Otevřeně mluví o sexismu v armádě i politice a podporuje hnutí #MeToo. Mimo jiné kritizuje exprezidenta Billa Clintona za skandál s Monikou Lewinskou a říká, že Clinton měl v důsledku kauzy rezignovat - což jí může ubrat body u demokratických příznivců Clintonových.</p>
+    <p>Právnička a senátorka Kirsten Gillebrandpvá je kandidátkou, která se profiluje převážně feministickými tématy. Otevřeně mluví o sexismu v armádě i politice a podporuje hnutí #MeToo. Mimo jiné kritizuje exprezidenta Billa Clintona za skandál s Monikou Lewinskou a říká, že Clinton měl v důsledku kauzy rezignovat - což jí může ubrat body u demokratických příznivců Clintonových.</p>
     <p>Dřívejší ekonomicky konzervativní centristka se stejně jako celá strana postupně posunuje nalevo. Své postoje změnila v otázkách výdajů na sociální ochranu i kontroly držení zbraní. Se stranickou politikou se občas neshoduje, ale přízeň demokratických voliček ji může vynést mezi favority.</p>
     `,
   },
   {
-    name: "Kamala Harris",
+    name: "Kamala Harrisová",
     blurb: "Kalifornská hvězda",
     dob: "1964-10-20",
     desc: `
-    <p>Kamala Harris je v boji o demokratickou nominaci už dnes možnou favoritkou. Jako senátorka a bývalá generální prokurátorka Kalifornie má za sebou silný demokratický stát, s indicko-jamajskými kořeny také symbolizuje příklon demokratů k diverzitě. Ve své straně platí za jednu z nejlevicovějších: podporuje zdanění bohatých, veřejné zdravotní pojištění, legalizaci marihuany, přísnou kontrolu držení zbraní i bezplatné vysokoškolské vzdělání.</p>
+    <p>Kamala Harrisová je v boji o demokratickou nominaci už dnes možnou favoritkou. Jako senátorka a bývalá generální prokurátorka Kalifornie má za sebou silný demokratický stát, s indicko-jamajskými kořeny také symbolizuje příklon demokratů k diverzitě. Ve své straně platí za jednu z nejlevicovějších: podporuje zdanění bohatých, veřejné zdravotní pojištění, legalizaci marihuany, přísnou kontrolu držení zbraní i bezplatné vysokoškolské vzdělání.</p>
     <p>Před působením v Senátu si získala pověst přísné prokurátorky, která se ale zároveň stavěla chladně k reformám vězeňského systému. V kampani dosud nemá v některých otázkách příliš jasno, například podle deníku The New York Times jsou ale u silného kandidáta schopného porazit Donalda Trumpa voliči ochotni přešlapy odpouštět.</p>
     `,
   },
   {
-    name: "Amy Klobuchar",
+    name: "Amy Klobucharová",
     blurb: "Senátorka z lidu",
     dob: "1960-05-25",
     desc: `
-    <p>Amy Klobuchar je právnička a od roku 2007 senátorka za stát Minnesota. Stejně jako její soupeřka Kamala Harris má za sebou kariéru prokurátorky. Její politické pozice odpovídají mainstreamu v americké Demokratické straně a předchází jí pověst sympatické, ale v případě potřeby ostré političky, kterou prokázala mimo jiné při loňském schvalování soudce Nejvyššího soudu Bretta Kavanaugha.</p>
+    <p>Amy Klobucharová je právnička a od roku 2007 senátorka za stát Minnesota. Stejně jako její soupeřka Kamala Harrisová má za sebou kariéru prokurátorky. Její politické pozice odpovídají mainstreamu v americké Demokratické straně a předchází jí pověst sympatické, ale v případě potřeby ostré političky, kterou prokázala mimo jiné při loňském schvalování soudce Nejvyššího soudu Bretta Kavanaugha.</p>
     <p>Její priority pokrývají široké spektrum oblastí, od levnějších léků přes rychlejší internet a bezpečnější volby po přísnější antimonopolní zákony. I přes jasně liberální postoje se jí daří prezentovat se jako umírněná politička ochotná ke kompromisům, což jí může pomoci u středovějších demokratických voličů.</p>
     `,
   },
   {
     name: "Bernie Sanders",
-    blurb: "Známá firma",
+    blurb: "Starý známý",
     dob: "1941-09-08",
     desc: `
-    <p>Dobře známý soupeř Hillary Clinton z posledních demokratických primárek to ani tentokrát nebude mít jednoduché. Kampaň Bernieho Sanderse v roce 2016 posunula celou Demokratickou stranu doleva - jenže tím se jeho dříve odvážné levicivé postoje znormalizovaly a zastává je i nemalá část jeho soupeřů.</p>
+    <p>Dobře známý soupeř Hillary Clintonové z posledních demokratických primárek to ani tentokrát nebude mít jednoduché. Kampaň Bernieho Sanderse v roce 2016 posunula celou Demokratickou stranu doleva - jenže tím se jeho dříve odvážné levicivé postoje znormalizovaly a zastává je i nemalá část jeho soupeřů.</p>
     <p>Sanders může stále těžit ze své popularity a jádra voličů i dobrovolníků, které získal v poslední kampani. Proti němu ovšem hraje jednak jeho věk - pokud by se stal prezidentem, bude to v jeho 79 letech - jednak oproti minulým volbám zaplněné pole neokoukaných spolukandidátů, kteří více odpovídají představě demokratů o progresivní straně diverzity.</p>
     `,
   },
   {
-    name: "Elizabeth Warren",
+    name: "Elizabeth Warrenová",
     blurb: "Těžká váha levice",
     dob: "1949-06-22",
     desc: `
-    <p>Senátorka za stát Massachusetts a expertka na obchodní právo Elizabeth Warren je jednou z nejvýraznějších tváří levicového křídla Demokratické strany. Bývalá akademička v Senátu prosazuje ochranu spotřebitelů, podporu nižší a střední třídy a přísnou kontrolu finančního sektoru.</p>
-    <p>Elizabeth Warren patří mezi v demokratických primárkách mezi favority. Spolu s Berniem Sandersem patří mezi dlouholeté bojovníky proti velkému kapitálu. Proti ní ale může hrát fakt, že působí až příliš jako profesionální politička a chybí jí zápal, jaký v minulé kampani předvedl právě Sanders.</p>
+    <p>Senátorka za stát Massachusetts a expertka na obchodní právo Elizabeth Warrenová je jednou z nejvýraznějších tváří levicového křídla Demokratické strany. Bývalá akademička v Senátu prosazuje ochranu spotřebitelů, podporu nižší a střední třídy a přísnou kontrolu finančního sektoru.</p>
+    <p>Elizabeth Warrenová patří mezi v demokratických primárkách mezi favority. Spolu s Berniem Sandersem patří mezi dlouholeté bojovníky proti velkému kapitálu. Proti ní ale může hrát fakt, že působí až příliš jako profesionální politička a chybí jí zápal, jaký v minulé kampani předvedl právě Sanders.</p>
     `,
   },
   {
-    name: "Marianne Williamson",
-    blurb: "Duchovní outsiderka",
+    name: "Marianne Williamsonová",
+    blurb: "Outsiderská duchovní",
     dob: "1952-07-08",
     desc: `
-    <p>Marianne Williamson je americká charitativní aktiviska a „duchovní učitelka“. Do politiky přichází jako outsiderka - za sebou má pouze neúspěšnou nezávislou kandidaturu do Kongresu v roce 2014. Známá je ale díky svým bestsellerům a také z televizních obrazovek, mimo jiné díky show americké televizní legendy Oprah Winfrey.</p>
-    <p>Názorově se podle vlastních slov nejvíce shoduje s Berniem Sandersem a Elizabeth Warren, na rozdíl od nich ale do politiky přichází zvenku podobně jako Donald Trump. Její kandidatura ukáže, jak jsou demokraté ochotni v tomto směru jít v republikánských stopách - pokud tedy nebude kandidovat zmíněná Oprah Winfrey, o čemž se v posledních letech spekulovalo několikrát.</p>
+    <p>Marianne Williamsonová je americká charitativní aktiviska a „duchovní učitelka“. Do politiky přichází jako outsiderka - za sebou má pouze neúspěšnou nezávislou kandidaturu do Kongresu v roce 2014. Známá je ale díky svým bestsellerům a také z televizních obrazovek, mimo jiné díky show americké televizní legendy Oprah Winfreyové.</p>
+    <p>Názorově se podle vlastních slov nejvíce shoduje s Berniem Sandersem a Elizabeth Warrenovou, na rozdíl od nich ale do politiky přichází zvenku podobně jako Donald Trump. Její kandidatura ukáže, jak jsou demokraté ochotni v tomto směru jít v republikánských stopách - pokud tedy nebude kandidovat zmíněná Oprah Winfreyová, o čemž se v posledních letech spekulovalo několikrát.</p>
+    `,
+  },
+  {
+    name: "Andrew Yang",
+    blurb: "Nápaditý byznysmen",
+    dob: "1975-01-13",
+    desc: `
+    <p>Podnikatel Andrew Yang kandiduje na prezidenta po dvacetileté zkušenosti se start-upy. Je autorem knih, které se zabývají automatizací práce, a prezidentská kandidatura je jeho první zkušenost s politikou. Je vůbec prvním kandidátem s asijskými kořeny.</p>
+    <p>Jeho sloganem je „Humanity First“ (lidstvo především) a do kampaně jde s jednou hlavní myšlenkou: zavedením nepodmíněného základního příjmu 1000 dolarů měsíčně pro každého Američana. Kromě ní ale voličům mnoho nenabízí a je v roli outsidera. Jeho hlavním úspěchem může být, že jeho nápad se základním příjmem převezmou další kandidáti.</p>
     `,
   },
   {
