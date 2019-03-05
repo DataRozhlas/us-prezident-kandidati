@@ -13,7 +13,7 @@ const data = [
     blurb: "Nadějný třicátník",
     dob: "1982-01-19",
     desc: `
-    <p>Pete Buttigieg je starosta indianského města South Bend a bývalý firemní konzultant. Během svého působení v armádě byl nasazen v Afghánistánu. Je vůbec prvním otevřeně gay kandidátem na amerického prezidenta a pokud by byl zvolen, stal by se i nejmladším prezidentem.</p>
+    <p>Pete Buttigieg je starosta indianského města South Bend a bývalý firemní konzultant. Během svého působení v armádě byl nasazen v Afghánistánu. Je vůbec prvním otevřeně gay kandidátem na amerického prezidenta, a pokud by byl zvolen, stal by se i nejmladším prezidentem.</p>
     <p>Buttigieg se v kampani profiluje jako hlas mladých, má však zkušenosti pouze s komunální politikou a oproti svým soupeřům je ale stále poměrně neznámý. Jeho kandidatura se tak považuje spíš za začátek cesty do vysoké politiky.</p>
     `,
   },
@@ -49,8 +49,8 @@ const data = [
     blurb: "Senátorka z hnutí #MeToo",
     dob: "1966-12-09",
     desc: `
-    <p>Právnička a senátorka Kirsten Gillebrandová je kandidátkou, která se profiluje převážně feministickými tématy. Otevřeně mluví o sexismu v armádě i politice a podporuje hnutí #MeToo. Mimo jiné kritizuje exprezidenta Billa Clintona za skandál s Monikou Lewinskou a říká, že Clinton měl v důsledku kauzy rezignovat - což jí může ubrat body u demokratických příznivců Clintonových.</p>
-    <p>Dřívejší ekonomicky konzervativní centristka se stejně jako celá strana postupně posunuje nalevo. Své postoje změnila v otázkách výdajů na sociální ochranu i kontroly držení zbraní. Se stranickou politikou se občas neshoduje, ale přízeň demokratických voliček ji může vynést mezi favority.</p>
+    <p>Právnička a senátorka Kirsten Gillibrandová je kandidátkou, která se profiluje převážně feministickými tématy. Otevřeně mluví o sexismu v armádě i politice a podporuje hnutí #MeToo. Mimo jiné kritizuje exprezidenta Billa Clintona za skandál s Monikou Lewinskou a říká, že Clinton měl v důsledku kauzy rezignovat – což jí může ubrat body u demokratických příznivců Clintonových.</p>
+    <p>Dřívější ekonomicky konzervativní centristka se stejně jako celá strana postupně posunuje nalevo. Své postoje změnila v otázkách výdajů na sociální ochranu i kontroly držení zbraní. Se stranickou politikou se občas neshoduje, ale přízeň demokratických voliček ji může vynést mezi favority.</p>
     `,
   },
   {
@@ -77,7 +77,7 @@ const data = [
     dob: "1951-02-09",
     desc: `
     <p>Jay Inslee je guvernér státu Washington, který v celostátní politice působí už od začátku devadesátých let. Silně se vymezuje proti prezidentu Trumpovi, mimo jiné úspěšně napadl u soudu jeho zákaz vstupu do USA pro občany některých muslimských zemí.</p>
-    <p>V pozici guvernéra zdůrazňoval nutnost boje s klimatickou krizí, který je i hlavním tématem jeho prezidentské kampaně. Mezi kandidáty je i přes své politické zkušenosti spíše outsiderem, přesto je optimistou - podotýká, že i exprezidenti Jimmy Carter a Bill Clinton byli před primárkami málo známí guvernéři malých států.</p> 
+    <p>V pozici guvernéra zdůrazňoval nutnost boje s klimatickou krizí, který je i hlavním tématem jeho prezidentské kampaně. Mezi kandidáty je i přes své politické zkušenosti spíše outsiderem, přesto je optimistou – podotýká, že i exprezidenti Jimmy Carter a Bill Clinton byli před primárkami málo známí guvernéři malých států.</p> 
     `,
   },
   {
@@ -85,7 +85,7 @@ const data = [
     blurb: "Senátorka z lidu",
     dob: "1960-05-25",
     desc: `
-    <p>Amy Klobucharová je právnička a od roku 2007 senátorka za stát Minnesota. Stejně jako její soupeřka Kamala Harrisová má za sebou kariéru prokurátorky. Její politické pozice odpovídají mainstreamu v americké Demokratické straně a předchází jí pověst sympatické, ale v případě potřeby ostré političky, kterou prokázala mimo jiné při loňském schvalování soudce Nejvyššího soudu Bretta Kavanaugha.</p>
+    <p>Amy Klobucharová je právnička a od roku 2007 senátorka za stát Minnesota. Stejně jako její soupeřka Kamala Harrisová má za sebou kariéru prokurátorky. Její politické pozice odpovídají mainstreamu v americké Demokratické straně a předchází ji pověst sympatické, ale v případě potřeby ostré političky, kterou prokázala mimo jiné při loňském schvalování soudce Nejvyššího soudu Bretta Kavanaugha.</p>
     <p>Její priority pokrývají široké spektrum oblastí, od levnějších léků přes rychlejší internet a bezpečnější volby po přísnější antimonopolní zákony. I přes jasně liberální postoje se jí daří prezentovat se jako umírněná politička ochotná ke kompromisům, což jí může pomoci u středovějších demokratických voličů.</p>
     `,
   },
@@ -94,8 +94,8 @@ const data = [
     blurb: "Starý známý",
     dob: "1941-09-08",
     desc: `
-    <p>Dobře známý soupeř Hillary Clintonové z posledních demokratických primárek to ani tentokrát nebude mít jednoduché. Kampaň Bernieho Sanderse v roce 2016 posunula celou Demokratickou stranu doleva - jenže tím se jeho dříve odvážné levicivé postoje znormalizovaly a zastává je i nemalá část jeho soupeřů.</p>
-    <p>Sanders může stále těžit ze své popularity a jádra voličů i dobrovolníků, které získal v poslední kampani. Proti němu ovšem hraje jednak jeho věk - pokud by se stal prezidentem, bude to v jeho 79 letech - jednak oproti minulým volbám zaplněné pole neokoukaných spolukandidátů, kteří více odpovídají představě demokratů o progresivní straně diverzity.</p>
+    <p>Dobře známý soupeř Hillary Clintonové z posledních demokratických primárek to ani tentokrát nebude mít jednoduché. Kampaň Bernieho Sanderse v roce 2016 posunula celou Demokratickou stranu doleva - jenže tím se jeho dříve odvážné levicové postoje znormalizovaly a zastává je i nemalá část jeho soupeřů.</p>
+    <p>Sanders může stále těžit ze své popularity a jádra voličů i dobrovolníků, které získal v poslední kampani. Proti němu ovšem hraje jednak jeho věk – pokud by se stal prezidentem, bylo by to v jeho 79 letech – jednak oproti minulým volbám zaplněné pole neokoukaných spolukandidátů, kteří více odpovídají představě demokratů o progresivní straně diverzity.</p>
     `,
   },
   {
@@ -112,8 +112,8 @@ const data = [
     blurb: "Outsiderská duchovní",
     dob: "1952-07-08",
     desc: `
-    <p>Marianne Williamsonová je americká charitativní aktiviska a „duchovní učitelka“. Do politiky přichází jako outsiderka - za sebou má pouze neúspěšnou nezávislou kandidaturu do Kongresu v roce 2014. Známá je ale díky svým bestsellerům a také z televizních obrazovek, mimo jiné díky show americké televizní legendy Oprah Winfreyové.</p>
-    <p>Názorově se podle vlastních slov nejvíce shoduje s Berniem Sandersem a Elizabeth Warrenovou, na rozdíl od nich ale do politiky přichází zvenku podobně jako Donald Trump. Její kandidatura ukáže, jak jsou demokraté ochotni v tomto směru jít v republikánských stopách - pokud tedy nebude kandidovat zmíněná Oprah Winfreyová, o čemž se v posledních letech spekulovalo několikrát.</p>
+    <p>Marianne Williamsonová je americká charitativní aktivistka a „duchovní učitelka“. Do politiky přichází jako outsiderka – za sebou má pouze neúspěšnou nezávislou kandidaturu do Kongresu v roce 2014. Známá je ale díky svým bestsellerům a také z televizních obrazovek, mimo jiné díky show americké televizní legendy Oprah Winfreyové.</p>
+    <p>Názorově se podle vlastních slov nejvíce shoduje s Berniem Sandersem a Elizabeth Warrenovou, na rozdíl od nich ale do politiky přichází zvenku podobně jako Donald Trump. Její kandidatura ukáže, jak jsou demokraté ochotni v tomto směru jít v republikánských stopách – pokud tedy nebude kandidovat zmíněná Oprah Winfreyová, o čemž se v posledních letech spekulovalo několikrát.</p>
     `,
   },
   {

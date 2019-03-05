@@ -14,6 +14,6 @@ Soupiska kandidátů nebyla nikdy v minulosti tak různorodá. Téměř polovinu
 <div id="kandidati"></div>
 <p></p>
 
-Aby se některý z demokratických kandidátů mohl v příštích volbách střetnout s prezidentem Trumpem, musí nejprve projít primárkami, tedy volbami, kterých se účastní registrovaní demokraté nebo straničtí příznivci. Jejich pravidla se liší stát od státu, první se konají 3. února 2019 [ve státě Iowa](https://www.irozhlas.cz/zpravy-domov/klikata-cesta-do-bileho-domu-zacina-primarkami-v-iowe-proc-jsou-tak-dulezite-_201602011332_pkoci).
+Aby se některý z demokratických kandidátů mohl v příštích volbách střetnout s prezidentem Trumpem, musí nejprve projít primárkami, tedy volbami, kterých se účastní registrovaní demokraté nebo straničtí příznivci. Jejich pravidla se liší stát od státu, první se konají 3. února 2020 [ve státě Iowa](https://www.irozhlas.cz/zpravy-domov/klikata-cesta-do-bileho-domu-zacina-primarkami-v-iowe-proc-jsou-tak-dulezite-_201602011332_pkoci).
 
 Registrovaných kandidátů Demokratické strany na prezidenta není pouhých čtrnáct, ale necelé dvě stovky. Registrovat se totiž může - a musí, pokud příjmy nebo výdaje přesáhnou pět tisíc dolarů - každý. Při výběru těch důležitých jsme vycházeli z [přehledu BBC](https://www.bbc.com/news/world-us-canada-47309795), který obsahuje v minulosti politicky aktivní kandidáty a ty, kteří získali dostatečné mediální pokrytí.
