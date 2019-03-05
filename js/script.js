@@ -3,7 +3,6 @@
 import "./targetblank"; // pro otvírání odkazů v novém okně
 import { h, render, Component } from "preact";
 /** @jsx h */
-import data from "./data";
 import { getAge } from "./datehelper";
 
 const DisplayBox = ({ candidate, handleClick }) => {
@@ -57,6 +56,7 @@ class Tablo extends Component {
     this.state = {
       visibleBox: false,
       selectedCand: null,
+      data: [],
     };
     this.handleEntryClick = this.handleEntryClick.bind(this);
     this.handleBoxClick = this.handleBoxClick.bind(this);
@@ -65,12 +65,23 @@ class Tablo extends Component {
   }
 
   componentDidMount() {
+    this.loadData();
     document.documentElement.addEventListener("keyup", this.handleKeys);
     document.documentElement.addEventListener("mouseup", this.handleMouseUp);
   }
 
+  loadData() {
+    const xhr = new XMLHttpRequest();
+    const url = "https://data.irozhlas.cz/us-prezident-kandidati/data/data.json";
+    xhr.open("get", url, true);
+    xhr.onload = () => {
+      this.setState({ data: JSON.parse(xhr.responseText) });
+    };
+    xhr.send();
+  }
+
   handleKeys(event) {
-    const { visibleBox, selectedCand } = this.state;
+    const { visibleBox, selectedCand, data } = this.state;
     if (visibleBox) {
       if (event.key === "Escape") {
         this.setState({
@@ -111,7 +122,7 @@ class Tablo extends Component {
   }
 
   handleBoxClick(action) {
-    const { selectedCand } = this.state;
+    const { selectedCand, data } = this.state;
     if (action === "close") {
       this.setState({
         visibleBox: false,
@@ -129,7 +140,7 @@ class Tablo extends Component {
   }
 
   render() {
-    const { visibleBox, selectedCand } = this.state;
+    const { visibleBox, selectedCand, data } = this.state;
     const displayBox = visibleBox
       ? <DisplayBox candidate={data[selectedCand]} handleClick={this.handleBoxClick} />
       : null;
