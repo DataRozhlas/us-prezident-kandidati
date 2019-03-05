@@ -49,7 +49,7 @@ const data = [
     blurb: "Senátorka z hnutí #MeToo",
     dob: "1966-12-09",
     desc: `
-    <p>Právnička a senátorka Kirsten Gillebrandpvá je kandidátkou, která se profiluje převážně feministickými tématy. Otevřeně mluví o sexismu v armádě i politice a podporuje hnutí #MeToo. Mimo jiné kritizuje exprezidenta Billa Clintona za skandál s Monikou Lewinskou a říká, že Clinton měl v důsledku kauzy rezignovat - což jí může ubrat body u demokratických příznivců Clintonových.</p>
+    <p>Právnička a senátorka Kirsten Gillebrandová je kandidátkou, která se profiluje převážně feministickými tématy. Otevřeně mluví o sexismu v armádě i politice a podporuje hnutí #MeToo. Mimo jiné kritizuje exprezidenta Billa Clintona za skandál s Monikou Lewinskou a říká, že Clinton měl v důsledku kauzy rezignovat - což jí může ubrat body u demokratických příznivců Clintonových.</p>
     <p>Dřívejší ekonomicky konzervativní centristka se stejně jako celá strana postupně posunuje nalevo. Své postoje změnila v otázkách výdajů na sociální ochranu i kontroly držení zbraní. Se stranickou politikou se občas neshoduje, ale přízeň demokratických voliček ji může vynést mezi favority.</p>
     `,
   },
