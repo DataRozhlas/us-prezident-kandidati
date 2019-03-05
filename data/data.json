@@ -1,0 +1,86 @@
+[
+  {
+     "name":"Cory Booker",
+     "blurb":"Charismatický řečník",
+     "dob":"1969-04-27",
+     "desc":"<p>Senátor za stát New Jersey Cory Booker je sociální liberál, který podporuje stejnopohlavní sňatky i veřejné zdravotní pojištění. Před zvolením do Senátu působil v komunální politice: ve funkci starosty města Newark se stavěl za nízkopříjmové obyvatele, prosadil výrazné rozšíření výstavby dostupného bydlení a podařilo se mu snížit schodek městského rozpočtu o více než polovinu.</p><p>Booker je známý jako charismatický politik a zdatný řečník, v čemž se podobá exprezidentu Baracku Obamovi. Díky svým vazbám na byznys a finanční sektor si je snadno schopen zajistit financování kampaně, zároveň je ale kvůli nim terčem kritiky levicových voličů.</p>"
+  },
+  {
+     "name":"Pete Buttigieg",
+     "blurb":"Nadějný třicátník",
+     "dob":"1982-01-19",
+     "desc":"<p>Pete Buttigieg je starosta indianského města South Bend a bývalý firemní konzultant. Během svého působení v armádě byl nasazen v Afghánistánu. Je vůbec prvním otevřeně gay kandidátem na amerického prezidenta, a pokud by byl zvolen, stal by se i nejmladším prezidentem.</p><p>Buttigieg se v kampani profiluje jako hlas mladých, má však zkušenosti pouze s komunální politikou a oproti svým soupeřům je ale stále poměrně neznámý. Jeho kandidatura se tak považuje spíš za začátek cesty do vysoké politiky.</p>"
+  },
+  {
+     "name":"Julian Castro",
+     "blurb":"Obamovec",
+     "dob":"1974-07-16",
+     "desc":"<p>Nejmladší ministr Baracka Obamy Julian Castro začínal jako radní a později starosta v texaském San Antoniu. V Obamově kabinetu zastával tři roky funkci ministra bytové výstavby. Ve volbách v roce 2016 podpořil Hillary Clintonovou, která o něm následně uvažovala jako o kandidátovi na viceprezidenta.</p><p>Mezi demokraty je spíše centristou, který podporuje volný trh a v ekonomických otázkách ke svým levicovým spolukandidátům příliš netíhne, byť patří mezi sociální liberály a podporuje například LGBT práva a boj proti klimatické změně. Není ovšem příliš schopným řečníkem a podle analytika BBC Anthonyho Zurchera by mu více slušela viceprezidentská role.</p>"
+  },
+  {
+     "name":"John Delaney",
+     "blurb":"Umírněný podnikatel",
+     "dob":"1963-04-16",
+     "desc":"<p>Podnikatel a bývalý kongresman John Delaney byl v červenci 2017 vůbec prvním, kdo oznámil kandidaturu v příštích prezidentských volbách. Označuje se za umírněného a ekonomicky je mezi demokraty spíše napravo. V kampani se chce zaměřit na pracovní místa, vzdělání a infrastrukturu.</p><p>Komentátoři považují Delaneyho za centristu a on sám mluví o potřebě stavět mosty mezi demokraty a republikány. Taková snaha však v současné silně rozdělené Americe nemá mnoho příznivců, Delaney je tak mezi kandidáty spíše outsiderem.</p>"
+  },
+  {
+     "name":"Tulsi Gabbardová",
+     "blurb":"Rozporuplná veteránka",
+     "dob":"1981-04-12",
+     "desc":"<p>Tulsi Gabbardová je kongresmanka z Havaje, první hinduistka v americkém Kongresu. Sloužila jako medička ve válce v Iráku a později v Kuvajtu. Patří mezi levicové demokratické kandidáty, podporuje boj proti klimatické změně nebo bankovní regulace a odmítá americké mezinárodní intervence.</p><p>Za některé své postoje je zároveň terčem kritiky. Kromě jiného nesouhlasí s americkou účastí ve válce v Sýrii, kde se v roce 2017 setkala s prezidentem Bašárem Asadem, a zastává tvrdší pozici v otázce migrace. Na začátku své kariéry navíc vystupovala proti potratům a stejnopohlavním sňatkům a propagovala léčení homosexuality. Dnes tyto postoje vysvětluje konzervativním prostředím, ve kterém vyrůstala, a ve všech hlasováních podporuje rovná lidská práva.</p>"
+  },
+  {
+     "name":"Kirsten Gillibrandová",
+     "blurb":"Senátorka z hnutí #MeToo",
+     "dob":"1966-12-09",
+     "desc":"<p>Právnička a senátorka Kirsten Gillibrandová je kandidátkou, která se profiluje převážně feministickými tématy. Otevřeně mluví o sexismu v armádě i politice a podporuje hnutí #MeToo. Mimo jiné kritizuje exprezidenta Billa Clintona za skandál s Monikou Lewinskou a říká, že Clinton měl v důsledku kauzy rezignovat – což jí může ubrat body u demokratických příznivců Clintonových.</p><p>Dřívější ekonomicky konzervativní centristka se stejně jako celá strana postupně posunuje nalevo. Své postoje změnila v otázkách výdajů na sociální ochranu i kontroly držení zbraní. Se stranickou politikou se občas neshoduje, ale přízeň demokratických voliček ji může vynést mezi favority.</p>"
+  },
+  {
+     "name":"Kamala Harrisová",
+     "blurb":"Kalifornská hvězda",
+     "dob":"1964-10-20",
+     "desc":"<p>Kamala Harrisová je v boji o demokratickou nominaci už dnes možnou favoritkou. Jako senátorka a bývalá generální prokurátorka Kalifornie má za sebou silný demokratický stát, s indicko-jamajskými kořeny také symbolizuje příklon demokratů k diverzitě. Ve své straně platí za jednu z nejlevicovějších: podporuje zdanění bohatých, veřejné zdravotní pojištění, legalizaci marihuany, přísnou kontrolu držení zbraní i bezplatné vysokoškolské vzdělání.</p><p>Před působením v Senátu si získala pověst přísné prokurátorky, která se ale zároveň stavěla chladně k reformám vězeňského systému. V kampani dosud nemá v některých otázkách příliš jasno, například podle deníku The New York Times jsou ale u silného kandidáta schopného porazit Donalda Trumpa voliči ochotni přešlapy odpouštět.</p>"
+  },
+  {
+     "name":"John Hickenlooper",
+     "blurb":"Středový guvernér",
+     "dob":"1952-02-07",
+     "desc":"<p>Nedávný guvernér státu Colorado John Hickenlooper patří mezi demokraty k umírněnému středu. Vystudovaný geolog se před působením v politice dal na podnikatelskou dráhu a mimo jiné spoluzaložil minipivovar. Post guvernéra zastával osm let, předtím byl osm let starostou města Denver.</p><p>Jako bývalý byznysmen je přátelský vůči trhu a počítá se k ekonomickému středu. Zároveň ale ve funkci guvernéra například prosadil přísnější pravidla pro držení zbraní, rozšíření zdravotního pojištění nebo environmentální regulace. Je také proti trestu smrti. Říká o sobě, že je „protilátkou vůči Trumpovi“.</p>"
+  },
+  {
+     "name":"Jay Inslee",
+     "blurb":"Klimatický bojovník",
+     "dob":"1951-02-09",
+     "desc":"<p>Jay Inslee je guvernér státu Washington, který v celostátní politice působí už od začátku devadesátých let. Silně se vymezuje proti prezidentu Trumpovi, mimo jiné úspěšně napadl u soudu jeho zákaz vstupu do USA pro občany některých muslimských zemí.</p><p>V pozici guvernéra zdůrazňoval nutnost boje s klimatickou krizí, který je i hlavním tématem jeho prezidentské kampaně. Mezi kandidáty je i přes své politické zkušenosti spíše outsiderem, přesto je optimistou – podotýká, že i exprezidenti Jimmy Carter a Bill Clinton byli před primárkami málo známí guvernéři malých států.</p> "
+  },
+  {
+     "name":"Amy Klobucharová",
+     "blurb":"Senátorka z lidu",
+     "dob":"1960-05-25",
+     "desc":"<p>Amy Klobucharová je právnička a od roku 2007 senátorka za stát Minnesota. Stejně jako její soupeřka Kamala Harrisová má za sebou kariéru prokurátorky. Její politické pozice odpovídají mainstreamu v americké Demokratické straně a předchází ji pověst sympatické, ale v případě potřeby ostré političky, kterou prokázala mimo jiné při loňském schvalování soudce Nejvyššího soudu Bretta Kavanaugha.</p><p>Její priority pokrývají široké spektrum oblastí, od levnějších léků přes rychlejší internet a bezpečnější volby po přísnější antimonopolní zákony. I přes jasně liberální postoje se jí daří prezentovat se jako umírněná politička ochotná ke kompromisům, což jí může pomoci u středovějších demokratických voličů.</p>"
+  },
+  {
+     "name":"Bernie Sanders",
+     "blurb":"Starý známý",
+     "dob":"1941-09-08",
+     "desc":"<p>Dobře známý soupeř Hillary Clintonové z posledních demokratických primárek to ani tentokrát nebude mít jednoduché. Kampaň Bernieho Sanderse v roce 2016 posunula celou Demokratickou stranu doleva - jenže tím se jeho dříve odvážné levicové postoje znormalizovaly a zastává je i nemalá část jeho soupeřů.</p><p>Sanders může stále těžit ze své popularity a jádra voličů i dobrovolníků, které získal v poslední kampani. Proti němu ovšem hraje jednak jeho věk – pokud by se stal prezidentem, bylo by to v jeho 79 letech – jednak oproti minulým volbám zaplněné pole neokoukaných spolukandidátů, kteří více odpovídají představě demokratů o progresivní straně diverzity.</p>"
+  },
+  {
+     "name":"Elizabeth Warrenová",
+     "blurb":"Těžká váha levice",
+     "dob":"1949-06-22",
+     "desc":"<p>Senátorka za stát Massachusetts a expertka na obchodní právo Elizabeth Warrenová je jednou z nejvýraznějších tváří levicového křídla Demokratické strany. Bývalá akademička v Senátu prosazuje ochranu spotřebitelů, podporu nižší a střední třídy a přísnou kontrolu finančního sektoru.</p><p>Elizabeth Warrenová patří mezi v demokratických primárkách mezi favority. Spolu s Berniem Sandersem patří mezi dlouholeté bojovníky proti velkému kapitálu. Proti ní ale může hrát fakt, že působí až příliš jako profesionální politička a chybí jí zápal, jaký v minulé kampani předvedl právě Sanders.</p>"
+  },
+  {
+     "name":"Marianne Williamsonová",
+     "blurb":"Outsiderská duchovní",
+     "dob":"1952-07-08",
+     "desc":"<p>Marianne Williamsonová je americká charitativní aktivistka a „duchovní učitelka“. Do politiky přichází jako outsiderka – za sebou má pouze neúspěšnou nezávislou kandidaturu do Kongresu v roce 2014. Známá je ale díky svým bestsellerům a také z televizních obrazovek, mimo jiné díky show americké televizní legendy Oprah Winfreyové.</p><p>Názorově se podle vlastních slov nejvíce shoduje s Berniem Sandersem a Elizabeth Warrenovou, na rozdíl od nich ale do politiky přichází zvenku podobně jako Donald Trump. Její kandidatura ukáže, jak jsou demokraté ochotni v tomto směru jít v republikánských stopách – pokud tedy nebude kandidovat zmíněná Oprah Winfreyová, o čemž se v posledních letech spekulovalo několikrát.</p>"
+  },
+  {
+     "name":"Andrew Yang",
+     "blurb":"Nápaditý byznysmen",
+     "dob":"1975-01-13",
+     "desc":"<p>Podnikatel Andrew Yang kandiduje na prezidenta po dvacetileté zkušenosti se start-upy. Je autorem knih, které se zabývají automatizací práce, a prezidentská kandidatura je jeho první zkušenost s politikou. Je vůbec prvním kandidátem s asijskými kořeny.</p><p>Jeho sloganem je „Humanity First“ (lidstvo především) a do kampaně jde s jednou hlavní myšlenkou: zavedením nepodmíněného základního příjmu 1000 dolarů měsíčně pro každého Američana. Kromě ní ale voličům mnoho nenabízí a je v roli outsidera. Jeho hlavním úspěchem může být, že jeho nápad se základním příjmem převezmou další kandidáti.</p>"
+  }
+]
