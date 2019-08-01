@@ -24,12 +24,6 @@
       "desc": "<p>Nejmladší ministr Baracka Obamy Julian Castro začínal jako radní a později starosta v texaském San Antoniu. V Obamově kabinetu zastával tři roky funkci ministra bytové výstavby. Ve volbách v roce 2016 podpořil Hillary Clintonovou, která o něm následně uvažovala jako o kandidátovi na viceprezidenta.</p><p>Mezi demokraty je spíše centristou, který podporuje volný trh a v ekonomických otázkách ke svým levicovým spolukandidátům příliš netíhne, byť patří mezi sociální liberály a podporuje například LGBT práva a boj proti klimatické změně. Není ovšem příliš schopným řečníkem a podle analytika BBC Anthonyho Zurchera by mu více slušela viceprezidentská role.</p>"
    },
    {
-      "name": "John Delaney",
-      "blurb": "Umírněný podnikatel",
-      "dob": "1963-04-16",
-      "desc": "<p>Podnikatel a bývalý kongresman John Delaney byl v červenci 2017 vůbec prvním, kdo oznámil kandidaturu v příštích prezidentských volbách. Označuje se za umírněného a ekonomicky je mezi demokraty spíše napravo. V kampani se chce zaměřit na pracovní místa, vzdělání a infrastrukturu.</p><p>Komentátoři považují Delaneyho za centristu a on sám mluví o potřebě stavět mosty mezi demokraty a republikány. Taková snaha však v současné silně rozdělené Americe nemá mnoho příznivců, Delaney je tak mezi kandidáty spíše outsiderem.</p>"
-   },
-   {
       "name": "Tulsi Gabbardová",
       "blurb": "Rozporuplná veteránka",
       "dob": "1981-04-12",
@@ -48,12 +42,6 @@
       "desc": "<p>Kamala Harrisová je v boji o demokratickou nominaci už dnes možnou favoritkou. Jako senátorka a bývalá generální prokurátorka Kalifornie má za sebou silný demokratický stát, s indicko-jamajskými kořeny také symbolizuje příklon demokratů k diverzitě. Ve své straně platí za jednu z nejlevicovějších: podporuje zdanění bohatých, veřejné zdravotní pojištění, legalizaci marihuany, přísnou kontrolu držení zbraní i bezplatné vysokoškolské vzdělání.</p><p>Před působením v Senátu si získala pověst přísné prokurátorky, která se ale zároveň stavěla chladně k reformám vězeňského systému. V kampani dosud nemá v některých otázkách příliš jasno, například podle deníku The New York Times jsou ale u silného kandidáta schopného porazit Donalda Trumpa voliči ochotni přešlapy odpouštět.</p>"
    },
    {
-      "name": "John Hickenlooper",
-      "blurb": "Středový guvernér",
-      "dob": "1952-02-07",
-      "desc": "<p>Nedávný guvernér státu Colorado John Hickenlooper patří mezi demokraty k umírněnému středu. Vystudovaný geolog se před působením v politice dal na podnikatelskou dráhu a mimo jiné spoluzaložil minipivovar. Post guvernéra zastával osm let, předtím byl osm let starostou města Denver.</p><p>Jako bývalý byznysmen je přátelský vůči trhu a počítá se k ekonomickému středu. Zároveň ale ve funkci guvernéra například prosadil přísnější pravidla pro držení zbraní, rozšíření zdravotního pojištění nebo environmentální regulace. Je také proti trestu smrti. Říká o sobě, že je „protilátkou vůči Trumpovi“.</p>"
-   },
-   {
       "name": "Jay Inslee",
       "blurb": "Klimatický bojovník",
       "dob": "1951-02-09",
@@ -64,6 +52,12 @@
       "blurb": "Senátorka z lidu",
       "dob": "1960-05-25",
       "desc": "<p>Amy Klobucharová je právnička a od roku 2007 senátorka za stát Minnesota. Stejně jako její soupeřka Kamala Harrisová má za sebou kariéru prokurátorky. Její politické pozice odpovídají mainstreamu v americké Demokratické straně a předchází ji pověst sympatické, ale v případě potřeby ostré političky, kterou prokázala mimo jiné při loňském schvalování soudce Nejvyššího soudu Bretta Kavanaugha.</p><p>Její priority pokrývají široké spektrum oblastí, od levnějších léků přes rychlejší internet a bezpečnější volby po přísnější antimonopolní zákony. I přes jasně liberální postoje se jí daří prezentovat se jako umírněná politička ochotná ke kompromisům, což jí může pomoci u středovějších demokratických voličů.</p>"
+   },
+   {
+      "name": "Beto O'Rourke",
+      "blurb": "Politická rockstar",
+      "dob": "1972-09-26",
+      "desc": "<p>Robert „Beto“ O'Rourke je těsně neúspěšným kandidátorem na texaského senátora z voleb v roce 2018, kde ho porazil republikán Ted Cruz. I přes volební nezdar má ale auru rockové hvězdy. Svým energickým vystupováním a lidovým projevem dokáže nadchnout davy i přispěvatele na kampaň.</p><p>O'Rourke umí plynně španělsky, což mu pomáhá na americkém jihu. Jako „normálního chlapíka z lidu“ si ho oblíbili spíš středoví než levicoví demokratičtí voliči. Jeho schopnost okouzlit masy je ale to, co může Trumpovi konkurovat nejvíc.</p>"
    },
    {
       "name": "Bernie Sanders",
